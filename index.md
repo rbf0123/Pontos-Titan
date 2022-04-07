@@ -47,20 +47,12 @@
      <table>
         <caption>Tabela de Pontos</caption>
     <thead>
-        <tr>
+        <tr><!--Grupo 1 -->
             <th><center>CENTRO</center></th>
             <th>Pontos</th> 
             <th>Selecione</th> 
         </tr>
    </thead>
-
- <thead><!--2-->
-        <tr>
-            <th><center>NORTE</center></th>
-            <th>Pontos</th> 
-            <th>Selecione</th> 
-        </tr>
- </thead>
 
  <tbody>
 
@@ -89,10 +81,46 @@
       <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
    </tr>
 
-   <tr>
+   <tr><!--Grupo 2 -->
       <th><center>ZONA NORTE</center></th>
       <th>Pontos</th> 
       <th>Selecione</th> 
+   </tr>
+    
+   <tr>
+      <td><center>Sto. Amaro</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Água Fria</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Brasilândia</center></td>
+      <td><center>5</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Casa Verde</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Freguesia do Ó</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
+   
+   <tr>
+      <td><center>Freguesia do Ó</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
    </tr>
                  
      
