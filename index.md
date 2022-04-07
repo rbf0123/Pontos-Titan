@@ -34,6 +34,9 @@
 
 </head> 
 
+
+
+
 <body>
 
    <h1>Cálculo de Pontos</h1>
@@ -55,27 +58,27 @@
 
 <!--Itens listado na tabela de bairros-->
    <tr>
-      <td><center>Avenida Paulista</center></td>
-      <td><center>2</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
-   </tr>
-
-   <tr>
-      <td><center>Bela Vista</center></td>
-      <td><center>2</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
-   </tr>
-
-   <tr>
-      <td><center>Bom Retiro</center></td>
+      <td><center>Sto. Amaro</center></td>
       <td><center>3</center></td>
       <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
    </tr>
 
    <tr>
-      <td><center>Brás</center></td>
+      <td><center>Vila Nova Conceição</center></td>
+      <td><center>2</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Itaim Bibi</center></td>
       <td><center>3</center></td>
       <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Consolação</center></td>
+      <td><center>5</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
    </tr>
 
    <tr><!--Grupo 2 -->
@@ -109,9 +112,9 @@
    </tr>
    
    <tr>
-      <td><center>Horto Floretal</center></td>
-      <td><center>4</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="4" /></label></center></td>
+      <td><center>Freguesia do Ó</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
    </tr>
 
  <tr><!--Grupo 3 -->
@@ -188,7 +191,7 @@
      
 <!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
 
-   <label><center>Pontuação <input type="text" name="result" id="result" value="0,00 " /></center></label>
+   <label><center>Pontuação<input type="text" name="result" id="result" value="0,00 " /></center></label>
 
 
 <!--Script checa se a caixa está selecionada, se sim, soma os valores, senão, subtrai o valor-->
