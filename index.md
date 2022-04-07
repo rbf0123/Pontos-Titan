@@ -34,9 +34,6 @@
 
 </head> 
 
-
-
-
 <body>
 
    <h1>Cálculo de Pontos</h1>
