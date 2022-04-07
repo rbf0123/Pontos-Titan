@@ -47,7 +47,7 @@
    
    <div id="container">
     <table>
-        <caption>Tabela de Pontos</caption>
+        <caption>Tabela de Pontos teste</caption>
        <thead>
         <tr>
             <th>Bairro</th>
