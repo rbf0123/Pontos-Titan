@@ -50,9 +50,9 @@
         <caption>Tabela de Pontos</caption>
        <thead>
         <tr>
-            <th>Bairro</th>
-            <th>Ponto</th> 
-            <th>Observação</th> 
+            <th><center>CENTRO</center></th>
+            <th>PONTOS</th> 
+            <th>SELECIONE</th> 
         </tr>
 
         </thead>
