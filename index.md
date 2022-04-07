@@ -5,7 +5,7 @@
     <meta nome="viewport" content="width=device=width, initial-scale=1.0">
      <title>Controle de Pontuação</title>
 
-     <style>
+   <style>
          body{
              font-family: Arial, Helvetica, sans-serif;
          }
@@ -30,8 +30,7 @@
              overflow-x: auto ;
          }
       
-           
-     </style>
+   </style>
 
 </head> 
 
@@ -39,95 +38,71 @@
 
 
 <body>
+
    <h1>Cálculo de Pontos</h1>
    <p>Selecione na tabela os bairros desejados para calcular a quantidade de pontos do trajeto. </p> 
 
   
-
-   
    <div id="container">
-    <table>
+     <table>
         <caption>Tabela de Pontos</caption>
-       <thead>
+    <thead>
         <tr>
             <th><center>CENTRO</center></th>
             <th>Pontos</th> 
             <th>Selecione</th> 
         </tr>
+   </thead>
 
-         <tr>
-                    <th><center>ZONA NORTE</center></th>
-                    <th>Pontos</th> 
-                    <th>Selecione</th> 
-                </tr>
+ <thead><!--2-->
+        <tr>
+            <th><center>NORTE</center></th>
+            <th>Pontos</th> 
+            <th>Selecione</th> 
+        </tr>
+ </thead>
 
-        </thead>
-
-        <tbody>
+ <tbody>
 
 <!--Itens listado na tabela de bairros-->
-          <tr>
-            <td><center>Sto. Amaro</center></td>
-            <td><center>3</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
-          </tr>
+   <tr>
+      <td><center>Sto. Amaro</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
 
-          <tr>
-            <td><center>Vila Nova Conceição</center></td>
-            <td><center>2</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
-          </tr>
+   <tr>
+      <td><center>Vila Nova Conceição</center></td>
+      <td><center>2</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+   </tr>
 
-          <tr>
-            <td><center>Itaim Bibi</center></td>
-            <td><center>3</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
-          </tr>
+   <tr>
+      <td><center>Itaim Bibi</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
 
-          <tr>
-            <td><center>Consolação</center></td>
-            <td><center>5</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
-          </tr>
+   <tr>
+      <td><center>Consolação</center></td>
+      <td><center>5</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
+   </tr>
 
-              
-
-        <tr>
-            <td><center>Sto. Amaro</center></td>
-            <td><center>3</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
-        </tr>
-
-        <tr>
-            <td><center>Vila Nova Conceição</center></td>
-            <td><center>2</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
-        </tr>
-
-        <tr>
-            <td><center>Itaim Bibi</center></td>
-            <td><center>3</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
-        </tr>
-
-        <tr>
-            <td><center>Consolação</center></td>
-            <td><center>5</center></td>
-            <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
-        </tr>
-
-
-
+   <tr>
+      <th><center>ZONA NORTE</center></th>
+      <th>Pontos</th> 
+      <th>Selecione</th> 
+   </tr>
+                 
      
-          <!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e 
-                        "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
+<!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
 
-          <label><center>Total de Pontos <input type="text" name="result" id="result" value="0,00 " /></center></label>
+   <label><center>Total de Pontos <input type="text" name="result" id="result" value="0,00 " /></center></label>
 
 
 <!--Script checa se a caixa está selecionada, se sim, soma os valores, senão, subtrai o valor-->
-          <script>
-
+   <script>
             String.prototype.formatMoney = function() {
                 var v = this;
             
@@ -166,23 +141,17 @@
                             result = $result.value.toFloat() - parseFloat(v);
                         }
                         
-                    
-
-                        $result.value = " " + String(result).formatMoney();
+                      $result.value = " " + String(result).formatMoney();
           
                     });
                 });
-
-                
-                        
+                  
             }());
 
-            </script>
-        </tbody>
-    </table>
+    </script>
+  </tbody>
+ </table>
 </div>
-   
-   
+  
 </body>
-
 </html>
