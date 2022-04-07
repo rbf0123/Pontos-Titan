@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta nome="viewport" content="width=device=width, initial-scale=1.0">
-     <title>Controle de E-mails</title>
+     <title>Controle de Pontuação</title>
 
      <style>
          body{
@@ -39,15 +39,15 @@
 
 
 <body>
-   <h1>Cálculo de Pontos teste </h1>
-   <p>Para calcular a quantidade de pontos selecione na tabela os bairros desejado! </p> 
+   <h1>Cálculo de Pontos</h1>
+   <p>Selecione na tabela os bairros desejados para calcular a quantidade de pontos do trajeto. </p> 
 
   
 
    
    <div id="container">
     <table>
-        <caption>Tabela de Pontos teste</caption>
+        <caption>Tabela de Pontos</caption>
        <thead>
         <tr>
             <th>Bairro</th>
