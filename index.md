@@ -160,7 +160,7 @@
    </tr>
    
    <tr>
-      <td><center>Ajurá</center></td>
+      <td><center>Arujá</center></td>
       <td><center>9</center></td>
       <td><center><label> <input type="checkbox" name="ch[]" value="9" /></label></center></td>
    </tr>
