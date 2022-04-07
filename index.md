@@ -191,7 +191,7 @@
      
 <!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
 
-   <label><center>Pontuação<input type="text" name="result" id="result" value="0,00 " /></center></label>
+   <label><center>Pontuação <input type="text" name="result" id="result" value="0,00 " /></center></label>
 
 
 <!--Script checa se a caixa está selecionada, se sim, soma os valores, senão, subtrai o valor-->
