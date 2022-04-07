@@ -20,7 +20,7 @@
 
          th, td{
              border: 1px solid black;
-             padding: 5px;
+             padding: 10px;
          }
          tr:nth-child(even){
              background-color: rgb(228, 228, 228);
@@ -51,8 +51,8 @@
        <thead>
         <tr>
             <th><center>CENTRO</center></th>
-            <th>PONTOS</th> 
-            <th>SELECIONE</th> 
+            <th>Pontos</th> 
+            <th>Selecione</th> 
         </tr>
 
         </thead>
@@ -83,9 +83,16 @@
             <td><center>5</center></td>
             <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
           </tr>
+
+                <tr>
+                     <th><center>ZONA NORTE</center></th>
+                     <th>Pontos</th> 
+                     <th>Selecione</th> 
+                 </tr>
      
           <!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e 
-                        "R$$" do  result.value = "!!R$ " + String(result).formatMoney(); -->
+                        "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
+
           <label><center>Total de Pontos <input type="text" name="result" id="result" value="0,00 " /></center></label>
 
 
