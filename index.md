@@ -58,27 +58,27 @@
 
 <!--Itens listado na tabela de bairros-->
    <tr>
-      <td><center>Sto. Amaro</center></td>
-      <td><center>3</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
-   </tr>
-
-   <tr>
-      <td><center>Vila Nova Conceição</center></td>
+      <td><center>Avenida Paulista</center></td>
       <td><center>2</center></td>
       <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
    </tr>
 
    <tr>
-      <td><center>Itaim Bibi</center></td>
+      <td><center>Bela Vista</center></td>
+      <td><center>2</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Bom Retiro</center></td>
       <td><center>3</center></td>
       <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
    </tr>
 
    <tr>
-      <td><center>Consolação</center></td>
-      <td><center>5</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
+      <td><center>Brás</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
    </tr>
 
    <tr><!--Grupo 2 -->
@@ -173,8 +173,8 @@
 
    <tr>
       <td><center>Biritiba-Mirim</center></td>
-      <td><center>3</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+      <td><center>12</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="12" /></label></center></td>
    </tr>
 
    <tr>
