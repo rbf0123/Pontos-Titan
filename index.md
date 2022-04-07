@@ -86,13 +86,7 @@
       <th>Pontos</th> 
       <th>Selecione</th> 
    </tr>
-    
-   <tr>
-      <td><center>Sto. Amaro</center></td>
-      <td><center>3</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
-   </tr>
-
+   
    <tr>
       <td><center>Água Fria</center></td>
       <td><center>3</center></td>
@@ -122,11 +116,46 @@
       <td><center>3</center></td>
       <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
    </tr>
-                 
+
+ <tr><!--Grupo 3 -->
+      <th><center>ZONA SUL</center></th>
+      <th>Pontos</th> 
+      <th>Selecione</th> 
+   </tr>
+   
+   <tr>
+      <td><center>Aclimação</center></td>
+      <td><center>2</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Aeroporto</center></td>
+      <td><center>2</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Água Funda</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
+
+   <tr>
+      <td><center>Alto da Boa Vista</center></td>
+      <td><center>2</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+   </tr>
+   
+   <tr>
+      <td><center>Americanópolis</center></td>
+      <td><center>3</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+   </tr>
      
 <!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
 
-   <label><center>Total de Pontos <input type="text" name="result" id="result" value="0,00 " /></center></label>
+   <label><center>Pontuação<input type="text" name="result" id="result" value="0,00 " /></center></label>
 
 
 <!--Script checa se a caixa está selecionada, se sim, soma os valores, senão, subtrai o valor-->
