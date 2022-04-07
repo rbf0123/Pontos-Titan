@@ -112,9 +112,9 @@
    </tr>
    
    <tr>
-      <td><center>Freguesia do Ó</center></td>
-      <td><center>3</center></td>
-      <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+      <td><center>Horto Floretal</center></td>
+      <td><center>4</center></td>
+      <td><center><label> <input type="checkbox" name="ch[]" value="4" /></label></center></td>
    </tr>
 
  <tr><!--Grupo 3 -->
