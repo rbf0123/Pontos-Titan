@@ -55,6 +55,12 @@
             <th>Selecione</th> 
         </tr>
 
+         <tr>
+                    <th><center>ZONA NORTE</center></th>
+                    <th>Pontos</th> 
+                    <th>Selecione</th> 
+                </tr>
+
         </thead>
 
         <tbody>
@@ -84,11 +90,34 @@
             <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
           </tr>
 
-                <tr>
-                     <th><center>ZONA NORTE</center></th>
-                     <th>Pontos</th> 
-                     <th>Selecione</th> 
-                 </tr>
+              
+
+        <tr>
+            <td><center>Sto. Amaro</center></td>
+            <td><center>3</center></td>
+            <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+        </tr>
+
+        <tr>
+            <td><center>Vila Nova Conceição</center></td>
+            <td><center>2</center></td>
+            <td><center><label> <input type="checkbox" name="ch[]" value="2" /></label></center></td>
+        </tr>
+
+        <tr>
+            <td><center>Itaim Bibi</center></td>
+            <td><center>3</center></td>
+            <td><center><label> <input type="checkbox" name="ch[]" value="3" /></label></center></td>
+        </tr>
+
+        <tr>
+            <td><center>Consolação</center></td>
+            <td><center>5</center></td>
+            <td><center><label> <input type="checkbox" name="ch[]" value="5" /></label></center></td>
+        </tr>
+
+
+
      
           <!--Excluir o "R$" do value=!!R$ 0,00 da linha LABEL antes do script e 
                         "R$$" do  result.value = "!!R$ " + String(result).formatMoney();-->
